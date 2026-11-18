@@ -1,0 +1,89 @@
+
+# ==========================================
+# PYTHON ENVIRONMENTS
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# JUPYTER
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ==========================================
+# ENVIRONMENT VARIABLES & SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+service-account*.json
+*private-key*.json
+*credentials*.json
+
+# ==========================================
+# DATA - LARGE SATELLITE FILES
+# ==========================================
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# Raster and satellite formats
+*.tif
+*.tiff
+*.jp2
+*.img
+*.vrt
+*.nc
+*.hdf
+*.h5
+
+# ==========================================
+# PYTHON OUTPUTS
+# ==========================================
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# MAP OUTPUTS
+# ==========================================
+# Keep selected interactive HTML maps in GitHub.
+# Ignore temporary exports instead.
+
+# ==========================================
+# QGIS TEMPORARY FILES
+# ==========================================
+*.qgz~
+*.qgs~
+*.qgd
+*.qgd-wal
+*.qgd-shm
+*.qgs~
+
+# ==========================================
+# OPERATING SYSTEM
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# IDE
+# ==========================================
+.vscode/
+.idea/

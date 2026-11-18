@@ -1,0 +1,46 @@
+
+# ==========================================
+# GOOGLE EARTH ENGINE
+# ==========================================
+earthengine-api
+geemap
+
+# ==========================================
+# DATA ANALYSIS
+# ==========================================
+numpy
+pandas
+scipy
+scikit-learn
+
+# ==========================================
+# GEOSPATIAL PROCESSING
+# ==========================================
+geopandas
+rasterio
+rioxarray
+shapely
+pyproj
+xarray
+
+# ==========================================
+# VISUALIZATION
+# ==========================================
+matplotlib
+seaborn
+folium
+mapclassify
+
+# ==========================================
+# JUPYTER ENVIRONMENT
+# ==========================================
+jupyterlab
+ipykernel
+notebook
+
+# ==========================================
+# UTILITIES
+# ==========================================
+python-dotenv
+tqdm
+requests
