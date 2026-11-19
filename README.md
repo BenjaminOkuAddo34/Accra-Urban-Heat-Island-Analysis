@@ -140,6 +140,40 @@ The repository will contain source code, notebooks, documentation, selected visu
 
 ## 9. Project Status
 
-**Current Stage:** Repository Setup
+**Current Stage:** District-level analysis complete. Pixel-level mapping, QGIS cartography and the final report are in progress.
 
-This project is under development. Analytical outputs and findings will be added progressively
+### Interactive map
+
+**[View the interactive urban heat map](https://benjaminokuaddo34.github.io/Accra-Urban-Heat-Island-Analysis/maps/interactive/accra_heat_map.html)**
+
+Hover over any district to see its surface temperature, its heat relative to the city average, and its rank. Use the panel to switch between five dry seasons (2019/20 to 2023/24).
+
+### Key findings so far
+
+- **Vegetation and heat:** across sampled pixels in the 2022/23 dry season, land surface temperature was strongly negatively correlated with NDVI (r = -0.78) and positively correlated with NDBI (r = 0.74).
+- **Consistent hotspots:** Ashaiman, Ablekuma Central, Ablekuma West, Ayawaso Central and Accra Metropolis were hotter than the city average in all five dry seasons.
+- **Consistent cool zones:** Ga North ranked coolest of the 26 districts in every season, with Ga West, Ga South and La-Nkwantanang-Madina also near the bottom.
+- **Gap:** the hottest districts average roughly 6 °C above the coolest.
+
+### Notebooks
+
+| Notebook | Contents |
+|---|---|
+| `01_data_exploration.ipynb` | Earth Engine setup, Landsat availability by month, cloud masking |
+| `02_landsat_preprocessing.ipynb` | LST, NDVI and NDBI, correlation analysis, district ranking, interactive map |
+
+### Method notes and limitations
+
+- Land surface temperature is the temperature of the surface (ground and roofs), not the air temperature.
+- Only dry seasons (December to February) are analysed, because the rainy season has too few cloud-free scenes.
+- Absolute temperatures differ between seasons because of scene dates, scene counts and weather, so seasons are compared using each district's difference from the city average, not raw degrees.
+- Harmattan dust haze is not removed by the cloud mask and may slightly affect values.
+- District figures are averages at 120 m resolution. Large rural districts and small central districts should be read differently.
+- Correlation does not prove cause. Distance from the sea, soil moisture and surface materials also matter.
+
+### Data credits
+
+- Landsat 8 and 9 Collection 2 Level-2 imagery: USGS, accessed through Google Earth Engine.
+- District boundaries: geoBoundaries (CC BY 4.0).
+- Surface water: JRC Global Surface Water.
+- Basemap tiles: Esri.
