@@ -1,0 +1,27 @@
+rank,district,LST_C,NDVI,NDBI,pixels
+1,Accra Metropolis,41.9,0.16,0.1,422
+2,Ningo/prampram,41.18,0.28,0.1,43538
+3,Ablekuma West Municipal,40.95,0.2,0.11,939
+4,Ayawaso Central Municipal,40.8,0.15,0.12,138
+5,Tema Metropolitan,40.78,0.27,0.03,3052
+6,Krowor Municipal,40.71,0.22,0.09,1372
+7,Ashaiman Municipal,40.5,0.22,0.09,1368
+8,Ablekuma Central Municipal,40.28,0.18,0.11,1068
+9,Tema West Municipal,40.07,0.24,0.06,3326
+10,Ledzokuku Municipal,39.92,0.23,0.09,2136
+11,Korle Klottey Municipal,39.42,0.26,0.04,734
+12,La Dade-kotopon,38.96,0.29,0.04,2605
+13,Kpone Katamanso,38.49,0.31,0.06,17144
+14,Ablekuma North Municipal,38.33,0.18,0.1,2202
+15,Ayawaso East Municipal,38.27,0.26,0.04,488
+16,Ayawaso North Municipal,38.17,0.19,0.09,405
+17,Adenta Municipal,38.03,0.26,0.06,5692
+18,Ga Central Municipal,37.5,0.25,0.07,3503
+19,Ga East,37.06,0.29,0.05,6304
+20,La-nkwantanang-madina,36.95,0.31,0.05,5237
+21,Ayawaso West,36.85,0.3,0.01,2471
+22,Weija Gbawe Municipal,36.57,0.31,0.03,9745
+23,Okaikwei North Municipal,35.99,0.33,0.0,1723
+24,Ga West Municipal,34.92,0.41,-0.01,12743
+25,Ga South Municipal,34.68,0.45,-0.03,12797
+26,Ga North Municipal,34.56,0.42,-0.03,9090
