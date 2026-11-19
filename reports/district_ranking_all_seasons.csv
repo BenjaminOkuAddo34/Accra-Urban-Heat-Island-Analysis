@@ -1,0 +1,131 @@
+district,LST_C,NDVI,NDBI,pixels,season,scenes
+Adenta Municipal,38.401,0.302,0.069,5692,2019/20,6
+Ledzokuku Municipal,39.1,0.233,0.091,2136,2019/20,6
+Ningo/prampram,40.686,0.32,0.102,43538,2019/20,6
+La Dade-kotopon,38.692,0.276,0.058,2605,2019/20,6
+La-nkwantanang-madina,37.055,0.384,0.024,5237,2019/20,6
+Ga East,37.717,0.342,0.038,6304,2019/20,6
+Ayawaso West,37.575,0.331,0.014,2471,2019/20,6
+Ga South Municipal,36.11,0.537,-0.064,12797,2019/20,6
+Ga West Municipal,36.758,0.448,-0.007,12743,2019/20,6
+Ga Central Municipal,38.91,0.3,0.063,3503,2019/20,6
+Tema West Municipal,39.327,0.253,0.074,3326,2019/20,6
+Ashaiman Municipal,40.436,0.238,0.101,1368,2019/20,6
+Kpone Katamanso,38.377,0.362,0.052,17144,2019/20,6
+Ablekuma Central Municipal,40.369,0.189,0.104,1068,2019/20,6
+Korle Klottey Municipal,38.354,0.24,0.05,734,2019/20,6
+Ablekuma North Municipal,40.038,0.201,0.101,2202,2019/20,6
+Ayawaso North Municipal,39.466,0.2,0.094,405,2019/20,6
+Ayawaso East Municipal,38.458,0.266,0.048,488,2019/20,6
+Okaikwei North Municipal,37.696,0.361,-0.0,1723,2019/20,6
+Ga North Municipal,35.508,0.469,-0.045,9090,2019/20,6
+Weija Gbawe Municipal,38.063,0.323,0.036,9745,2019/20,6
+Krowor Municipal,39.182,0.215,0.091,1372,2019/20,6
+Tema Metropolitan,40.038,0.251,0.048,3052,2019/20,6
+Ablekuma West Municipal,40.443,0.212,0.107,939,2019/20,6
+Ayawaso Central Municipal,39.733,0.155,0.119,138,2019/20,6
+Accra Metropolis,40.164,0.156,0.1,422,2019/20,6
+Adenta Municipal,42.123,0.31,0.054,5692,2020/21,6
+Ledzokuku Municipal,44.114,0.217,0.095,2136,2020/21,6
+Ningo/prampram,42.884,0.353,0.072,43528,2020/21,6
+La Dade-kotopon,42.934,0.269,0.052,2605,2020/21,6
+La-nkwantanang-madina,38.239,0.381,0.003,5237,2020/21,6
+Ga East,40.123,0.342,0.021,6304,2020/21,6
+Ayawaso West,42.35,0.307,0.021,2471,2020/21,6
+Ga South Municipal,38.483,0.498,-0.057,12794,2020/21,6
+Ga West Municipal,37.709,0.454,-0.039,12739,2020/21,6
+Ga Central Municipal,41.285,0.298,0.05,3503,2020/21,6
+Tema West Municipal,44.215,0.245,0.075,3326,2020/21,6
+Ashaiman Municipal,44.428,0.247,0.097,1368,2020/21,6
+Kpone Katamanso,40.439,0.39,0.02,17144,2020/21,6
+Ablekuma Central Municipal,44.261,0.181,0.101,1068,2020/21,6
+Korle Klottey Municipal,41.916,0.23,0.045,734,2020/21,6
+Ablekuma North Municipal,43.484,0.197,0.094,2202,2020/21,6
+Ayawaso North Municipal,43.692,0.192,0.087,405,2020/21,6
+Ayawaso East Municipal,43.233,0.239,0.054,488,2020/21,6
+Okaikwei North Municipal,41.6,0.324,0.016,1723,2020/21,6
+Ga North Municipal,36.406,0.456,-0.055,9089,2020/21,6
+Weija Gbawe Municipal,41.313,0.315,0.023,9733,2020/21,6
+Krowor Municipal,44.273,0.204,0.096,1372,2020/21,6
+Tema Metropolitan,43.893,0.239,0.043,3052,2020/21,6
+Ablekuma West Municipal,43.387,0.21,0.108,939,2020/21,6
+Ayawaso Central Municipal,44.87,0.144,0.114,138,2020/21,6
+Accra Metropolis,43.446,0.152,0.089,422,2020/21,6
+Adenta Municipal,36.887,0.236,0.068,5678,2021/22,9
+Ledzokuku Municipal,37.876,0.189,0.091,2136,2021/22,9
+Ningo/prampram,39.856,0.256,0.114,43521,2021/22,9
+La Dade-kotopon,37.077,0.217,0.063,2602,2021/22,9
+La-nkwantanang-madina,35.127,0.307,0.031,5225,2021/22,9
+Ga East,36.232,0.269,0.043,6304,2021/22,9
+Ayawaso West,36.1,0.24,0.034,2471,2021/22,9
+Ga South Municipal,36.14,0.404,0.014,12783,2021/22,9
+Ga West Municipal,35.471,0.365,0.018,12743,2021/22,9
+Ga Central Municipal,36.719,0.233,0.065,3503,2021/22,9
+Tema West Municipal,37.975,0.201,0.073,3326,2021/22,9
+Ashaiman Municipal,39.15,0.195,0.095,1368,2021/22,9
+Kpone Katamanso,37.008,0.29,0.066,17144,2021/22,9
+Ablekuma Central Municipal,39.502,0.159,0.09,1068,2021/22,9
+Korle Klottey Municipal,37.693,0.191,0.052,734,2021/22,9
+Ablekuma North Municipal,38.921,0.162,0.084,2202,2021/22,9
+Ayawaso North Municipal,37.899,0.164,0.08,405,2021/22,9
+Ayawaso East Municipal,36.805,0.193,0.057,488,2021/22,9
+Okaikwei North Municipal,36.382,0.254,0.026,1723,2021/22,9
+Ga North Municipal,34.632,0.391,-0.024,9090,2021/22,9
+Weija Gbawe Municipal,36.868,0.249,0.043,9711,2021/22,9
+Krowor Municipal,38.083,0.177,0.087,1372,2021/22,9
+Tema Metropolitan,38.408,0.21,0.048,3052,2021/22,9
+Ablekuma West Municipal,39.005,0.181,0.087,939,2021/22,9
+Ayawaso Central Municipal,39.022,0.128,0.101,138,2021/22,9
+Accra Metropolis,39.22,0.132,0.08,421,2021/22,9
+Adenta Municipal,38.032,0.264,0.065,5692,2022/23,11
+Ledzokuku Municipal,39.923,0.234,0.088,2136,2022/23,11
+Ningo/prampram,41.177,0.283,0.098,43538,2022/23,11
+La Dade-kotopon,38.959,0.289,0.036,2605,2022/23,11
+La-nkwantanang-madina,36.948,0.31,0.047,5237,2022/23,11
+Ga East,37.065,0.288,0.048,6304,2022/23,11
+Ayawaso West,36.853,0.304,0.012,2471,2022/23,11
+Ga South Municipal,34.677,0.454,-0.026,12797,2022/23,11
+Ga West Municipal,34.923,0.406,-0.011,12743,2022/23,11
+Ga Central Municipal,37.499,0.255,0.066,3503,2022/23,11
+Tema West Municipal,40.068,0.238,0.063,3326,2022/23,11
+Ashaiman Municipal,40.496,0.22,0.089,1368,2022/23,11
+Kpone Katamanso,38.494,0.309,0.056,17144,2022/23,11
+Ablekuma Central Municipal,40.283,0.184,0.106,1068,2022/23,11
+Korle Klottey Municipal,39.421,0.259,0.037,734,2022/23,11
+Ablekuma North Municipal,38.326,0.183,0.097,2202,2022/23,11
+Ayawaso North Municipal,38.167,0.185,0.091,405,2022/23,11
+Ayawaso East Municipal,38.268,0.258,0.042,488,2022/23,11
+Okaikwei North Municipal,35.994,0.331,0.001,1723,2022/23,11
+Ga North Municipal,34.558,0.42,-0.034,9090,2022/23,11
+Weija Gbawe Municipal,36.573,0.305,0.025,9745,2022/23,11
+Krowor Municipal,40.711,0.216,0.09,1372,2022/23,11
+Tema Metropolitan,40.781,0.265,0.028,3052,2022/23,11
+Ablekuma West Municipal,40.95,0.201,0.11,939,2022/23,11
+Ayawaso Central Municipal,40.8,0.152,0.121,138,2022/23,11
+Accra Metropolis,41.901,0.157,0.099,422,2022/23,11
+Adenta Municipal,39.705,0.268,0.067,5692,2023/24,11
+Ledzokuku Municipal,40.3,0.203,0.093,2136,2023/24,11
+Ningo/prampram,41.241,0.297,0.097,43538,2023/24,11
+La Dade-kotopon,39.915,0.245,0.053,2605,2023/24,11
+La-nkwantanang-madina,38.27,0.336,0.034,5237,2023/24,11
+Ga East,37.772,0.313,0.034,6304,2023/24,11
+Ayawaso West,38.829,0.281,0.026,2471,2023/24,11
+Ga South Municipal,36.256,0.461,-0.02,12797,2023/24,11
+Ga West Municipal,36.941,0.401,-0.0,12743,2023/24,11
+Ga Central Municipal,39.831,0.271,0.056,3503,2023/24,11
+Tema West Municipal,40.04,0.213,0.071,3326,2023/24,11
+Ashaiman Municipal,41.26,0.217,0.096,1368,2023/24,11
+Kpone Katamanso,39.266,0.331,0.05,17144,2023/24,11
+Ablekuma Central Municipal,40.524,0.171,0.098,1068,2023/24,11
+Korle Klottey Municipal,40.068,0.216,0.052,734,2023/24,11
+Ablekuma North Municipal,40.519,0.189,0.093,2202,2023/24,11
+Ayawaso North Municipal,40.048,0.181,0.086,405,2023/24,11
+Ayawaso East Municipal,39.377,0.222,0.05,488,2023/24,11
+Okaikwei North Municipal,38.415,0.309,0.015,1723,2023/24,11
+Ga North Municipal,36.011,0.437,-0.041,9090,2023/24,11
+Weija Gbawe Municipal,39.222,0.28,0.04,9745,2023/24,11
+Krowor Municipal,40.834,0.185,0.091,1372,2023/24,11
+Tema Metropolitan,39.84,0.226,0.033,3052,2023/24,11
+Ablekuma West Municipal,40.902,0.193,0.102,939,2023/24,11
+Ayawaso Central Municipal,40.388,0.143,0.111,138,2023/24,11
+Accra Metropolis,40.162,0.145,0.089,422,2023/24,11
