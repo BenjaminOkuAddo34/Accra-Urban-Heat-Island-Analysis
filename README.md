@@ -118,6 +118,8 @@ Absolute temperatures differ a lot between seasons, mainly because of which date
 
 ## 5. Results tables
 
+The full write-up is in [`reports/final_report.md`](reports/final_report.md).
+
 | File | Contents |
 |---|---|
 | [`reports/district_ranking_dry_2022_23.csv`](reports/district_ranking_dry_2022_23.csv) | District mean LST, NDVI, NDBI and pixel counts for 2022/23 |
@@ -174,9 +176,8 @@ Accra-Urban-Heat-Island-Analysis/
 │
 ├── .env.example
 ├── .gitignore
-├── .dockerignore
-├── compose.yaml
 ├── requirements.txt
+├── requirements-lock.txt   # exact package versions (optional)
 ├── LICENSE
 └── README.md
 ```
@@ -190,6 +191,8 @@ Accra-Urban-Heat-Island-Analysis/
    .venv\Scripts\Activate.ps1
    pip install -r requirements.txt
    ```
+
+   For the exact package versions used in this project, install from `requirements-lock.txt` instead.
 
 2. **Register for Google Earth Engine** (non-commercial use) and create a Google Cloud project.
 3. **Authenticate:**
@@ -218,8 +221,7 @@ Large rasters are not stored in the repository. Notebook 02 exports the three-ba
 | District ranking across five dry seasons | Complete |
 | Interactive web map | Complete |
 | Static maps (QGIS) | Complete for 2022/23 |
-| Written report | Planned |
-| Docker environment | Planned |
+| Written report | Complete ([`reports/final_report.md`](reports/final_report.md)) |
 | Reusable code in `src/` | Planned |
 
 ## 10. Data credits and license

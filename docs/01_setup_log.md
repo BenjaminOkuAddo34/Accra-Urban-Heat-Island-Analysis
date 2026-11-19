@@ -6,7 +6,7 @@ Process documentation from repository setup through the published maps. Last upd
 
 **Goal:** Map land surface temperature (LST) across Greater Accra, Ghana, and examine how vegetation (NDVI) and built-up or bare surfaces (NDBI) relate to urban heat hotspots, using Landsat 8 and 9 imagery.
 
-**Stack:** Python, Google Earth Engine, Geemap, GeoPandas, Folium, QGIS, Jupyter, Git/GitHub. Docker is planned.
+**Stack:** Python, Google Earth Engine, Geemap, GeoPandas, Folium, QGIS, Jupyter, Git/GitHub. Docker was considered and skipped (see section 2).
 
 **Shell:** PowerShell on Windows
 **Earth Engine project ID:** stored in a local `.env` file (not published)
@@ -15,7 +15,7 @@ Process documentation from repository setup through the published maps. Last upd
 ## 2. Key decisions
 
 - **QGIS complements Python.** Python does the repeatable processing and analysis. QGIS is used for inspection, validation and cartography. It runs as a desktop app and is not Dockerized.
-- **Docker is deferred** until the local environment is stable, and will cover only the Python environment.
+- **Docker was skipped.** Reproducibility is covered by `requirements.txt`, an optional `requirements-lock.txt` and the setup steps in the README. The Docker placeholder files were removed.
 - **Large data stays out of Git.** Landsat imagery and GeoTIFFs are ignored. Code, notebooks, the QGIS project, small CSV results, static maps and the interactive HTML map are committed.
 - **Credentials are never committed.** The Earth Engine token lives in the user profile and the project ID lives in `.env`, which is git-ignored.
 - **Dry season only.** The rainy season has too few cloud-free scenes (see section 5).
@@ -209,14 +209,14 @@ The QGIS project stores paths to the GeoTIFF and GeoJSON, which are not in GitHu
 | Interactive map live on GitHub Pages | Done |
 | Static maps (LST, NDVI, NDBI, 2022/23) | Done |
 | README with findings and reproduction steps | Done |
-| Final written report | Next |
-| Docker environment | Planned |
+| Final written report | Done (`reports/final_report.md`) |
+| Docker environment | Skipped (not needed) |
 | Move reusable code from notebooks into `src/` | Planned |
 | Static maps for other seasons | Optional |
 
 ## 13. Next steps
 
-1. Write `reports/final_report.md` (introduction, data, methods, results, discussion, limitations).
-2. Add a Docker setup for the Python environment (`docker/Dockerfile`, `compose.yaml`).
-3. Move the reusable functions into `src/` and pin package versions in `requirements.txt`.
+1. Review and publish `reports/final_report.md`.
+2. Save exact package versions with `pip freeze > requirements-lock.txt`.
+3. Move the reusable functions into `src/`.
 4. Optional: investigate Tema Metropolitan's surface types in QGIS and add an urban-versus-rural comparison.
